@@ -46,15 +46,15 @@ img {
 }
 
 /*=============== CARD ===============*/
-.container {
+.dashboardContainer {
     display: grid;
     place-items: center;
     margin-inline: 1.5rem;
     padding-block: 5rem;
+    position: relative;
 }
 
 .card__container {
-    display: grid;
     row-gap: 3.5rem;
 }
 
@@ -74,7 +74,7 @@ img {
     padding: 1.5rem 2rem;
     box-shadow: 0 8px 24px hsla(0, 0%, 0%, .15);
     border-radius: 1rem;
-    position: absolute;
+    /* position: absolute; */
     bottom: -9rem;
     left: 0;
     right: 0;
