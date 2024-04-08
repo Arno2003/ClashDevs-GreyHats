@@ -64,11 +64,9 @@ html {
   justify-content: center;
 }
 
-
 .sidebarLastLi {
   border: none !important;
 }
-
 
 .navbarContainer {
   border: 2px solid rgb(179, 255, 0);
@@ -76,4 +74,14 @@ html {
   height: 100px;
   width: 75%;
   position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navItem {
+  font-size: 19px;
+  margin-left: 16px;
+  margin-right: 16px;
 }
