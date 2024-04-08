@@ -10,7 +10,7 @@ html {
 .sidebarContainer {
   color: white;
   /* border: 2px solid red; */
-  background-color: rgb(49, 84, 72);
+  background-color: #d8c3a5;
   height: 100vh;
   width: 25%;
   position: fixed;
@@ -46,7 +46,7 @@ html {
   padding-top: 40px;
   /* width: 100%; */
 }
-.sidebarMid ul li {
+.sidebarMid ul a {
   margin: auto;
   cursor: pointer;
   font-size: 18px;
